@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "cypress": "^12.14.0",
+    "faker-br": "^0.4.1",
+    "npm-run-all": "^4.1.5"
+  },
+  "name": "avaliacao_api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run --config video=false --env allure=true",
+    "allure:generate": "allure generate allure-results",
+    "allure:open": "allure open allure-report",
+    "allure:clear": "rm -r allure-results/ allure-report || true",
+    "test": "npm-run-all allure:clear cy:run allure:generate",
+    "test:rel": "npm-run-all allure:clear cy:run allure:generate allure:open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.40.2"
+  }
+}

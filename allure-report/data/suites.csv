@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon May 13 20:13:12 BRT 2024","Mon May 13 20:13:13 BRT 2024","533","","Validação geral das apis do jsonPlaceHolder","","","","Exercício 1 = Validação GET",""
+"passed","Mon May 13 20:13:13 BRT 2024","Mon May 13 20:13:13 BRT 2024","417","","Validação geral das apis do jsonPlaceHolder","","","","Exercício 2 = Validação POST",""
+"passed","Mon May 13 20:13:13 BRT 2024","Mon May 13 20:13:14 BRT 2024","415","","Validação geral das apis do jsonPlaceHolder","","","","Exercício 3 = Validação PUT",""
